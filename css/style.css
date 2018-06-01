@@ -67,7 +67,7 @@ section p{
 #agri{
 
 }
-#liens{
+.liens{
 	background-color: #d9e3d5;
 	display: flex;
 	flex-direction: column;
