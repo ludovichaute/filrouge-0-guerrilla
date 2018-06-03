@@ -35,9 +35,9 @@ File: Layout CSS
 #pageintro{padding:120px 0; text-align:center;}
 
 #pageintro article{display:block; max-width:60%; margin:0 auto;}
-#pageintro article .introtxt{margin:0 0 50px 0; padding:30px; border-radius:0 50px;}
+#pageintro article .introtxt{margin:0 0 50px 0; padding:4px; border-radius:0 50px;}
 #pageintro article .heading{margin-bottom:30px; font-size:36px;}
-#pageintro article p:last-of-type{margin-bottom:0;}
+#pageintro article p:last-of-type{margin:10px 0px;}
 
 
 /* Content Area
