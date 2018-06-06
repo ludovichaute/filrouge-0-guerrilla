@@ -53,11 +53,11 @@ File: Layout CSS
 
 /* Elements */
 .elements li:last-child{margin-bottom:0;}/* Used for mobile devices when elements stack */
-.elements article{display:inline-block; width:100%; max-width:320px; height:100%;}
+.elements article{display:flex;flex-direction: column;align-items: center;width:100%; max-width:320px; height:100%;}
 .elements .txtwrap{padding:20px; border-top:5px solid; text-align:center;}
 .elements .txtwrap .heading{margin-bottom:0;}
 .elements .txtwrap time{display:block; font-size:.8rem; margin-bottom:10px;}
-.elements .txtwrap p{margin:0 0 15px 0;}
+.elements .txtwrap p{margin:10px 0 15px 0;}
 .elements .txtwrap p:last-child{margin-bottom:0;}
 .elements .txtwrap footer{}
 
@@ -85,7 +85,8 @@ File: Layout CSS
 
 /* Testimonials
 --------------------------------------------------------------------------------------------------------------- */
-#testimonials{}
+#testimonials a{color: black}
+#testimonials a:hover{color: white}
 #testimonials li{}
 #testimonials li:last-child{margin-bottom:0;}
 #testimonials li div{position:relative; min-height:120px; padding:20px 20px 20px 120px; border-radius:0 35px;}
@@ -153,7 +154,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"FontAwesome"; font-size:10px; line-height:10px;}
 
 /* Top Navigation */
-#mainav{margin-bottom:40px; border-bottom:1px solid;}
+#mainav{margin-bottom:40px;}
 #mainav ul{text-transform:uppercase; text-align:center;}
 #mainav ul ul{z-index:9999; position:absolute; width:160px; text-transform:none; text-align:left;}
 #mainav ul ul ul{left:160px; top:0;}
@@ -233,7 +234,7 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#888888; background-color:#FFFFFF;}
-a{color:#82A800;}
+a{display: flex;color:#82A800;height: 100px}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
